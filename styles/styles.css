@@ -1,0 +1,125 @@
+/* Resets / Bases */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.button {
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button svg {
+  margin-left: 5px;
+}
+
+
+
+
+
+/* typos */
+
+
+
+
+
+/* structure */
+header {
+  position: absolute;
+  padding: 0 24px;
+  top: 0;
+  left: auto;
+  right: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px 30px;
+}
+
+
+main {
+  
+}
+
+
+
+footer {
+  
+}
+
+
+/* nav */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 30px 15px;
+  color: white;
+}
+
+nav li.active a, nav a:hover {
+  background-color: #0067c7;
+}
+
+
+
+/* utilities */
+.bg-blue {
+  background-color: #007ef3;
+  color: white;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.half-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.half-flex  {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+/* components */
+.man {
+  background: no-repeat url(/images/humain-travail.png) center center;
+  min-height: 680px;
+}
